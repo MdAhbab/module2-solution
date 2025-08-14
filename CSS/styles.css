@@ -1,5 +1,5 @@
 html{
-    background: #000000;
+    background: #303030;
 }
 * {
     box-sizing: border-box;
@@ -22,9 +22,9 @@ h1 {
     text-align: justify;
     color: #ffffff;
     background: #3c3c3c;
-    background-color: #3c3c3c;
-    border: 1px #ffffff;
     border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 50px 15px 15px 15px;
     margin: 5px;
 }
@@ -34,7 +34,7 @@ h1 {
     right: 0;
     text-align: center;
     width: 5em;
-    border: .1em solid #ffffff;
+    border: .1em solid #000000;
     border-style: solid solid none none;
     border-radius: 20px;
     padding: 5px 10px;
@@ -43,7 +43,6 @@ h1 {
     font-size: 1.25em;
     color: #ffffff;
 }
-
 .chicken {
     background-color: #553f3f;
 }
